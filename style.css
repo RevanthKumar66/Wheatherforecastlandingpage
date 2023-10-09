@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #ff8686;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #020654;
+    color: #a9bdfe;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content container */
+.row {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the search form */
+.city-search {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.search-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the city list */
+.city-list {
+    margin-top: 20px;
+}
+
+.history-btn {
+    background-color: #ccc;
+    border: none;
+    color: #333;
+}
+
+.history-btn:hover {
+    background-color: #999;
+}
+
+/* Style the current conditions */
+.current-conditions {
+    margin-top: 20px;
+}
+
+.city-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.temp, .wind, .humidity, .uv-index {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Style the 5-day forecast */
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Style the weather icons */
+.w-2, .w-50 {
+    max-width: 50px;
+}
